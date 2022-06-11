@@ -12,5 +12,6 @@ const tutorials = [
 ];
 
 const titleCased = () => {
+  return str.split(' ').map(item => item.join(' '));
   return tutorials
 }
